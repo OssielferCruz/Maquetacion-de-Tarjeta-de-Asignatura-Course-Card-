@@ -34,7 +34,7 @@ main.container {
     border: 1px solid #dee2e6;
     border-radius: var(--card-border-radius);
     box-shadow: none;
-    transition: box-shadow 0.3s ease;
+    transition: box-shadow 0.3s ease, max-width 0.5s ease;
     overflow: hidden;
 }
 
@@ -68,6 +68,7 @@ main.container {
     font-weight: 700;
     color: var(--primary-color);
     margin-bottom: 0.5rem;
+    transition: font-size 0.5s ease;
 }
 
 .course-card__teacher {
