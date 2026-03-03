@@ -20,8 +20,9 @@
     max-width: var(--card-max-width);
     width: 100%;
     background: white;
+    border: 1px solid #dee2e6;
     border-radius: var(--card-border-radius);
-    box-shadow: var(--card-shadow);
+    box-shadow: none;
     transition: box-shadow 0.3s ease;
     overflow: hidden;
 }
