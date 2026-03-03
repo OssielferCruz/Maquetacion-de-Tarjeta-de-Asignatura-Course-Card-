@@ -59,7 +59,25 @@
 .course-card__teacher {
     font-size: 0.95rem;
     color: var(--text-muted);
-    margin-bottom: 0;
+    margin-bottom: 1.25rem;
+}
+
+.course-card__badges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.course-badge {
+    padding: 0.55rem 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #212529;
+    background-color: #fff;
 }
 
 /* Responsive - Mobile First */
